@@ -3,132 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae - Luca Viotti</title>
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/styles.css">
-
+    <title>Currículum de Desarrollador de Software</title>
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
+    
     <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="styles/fontawesome-free-6.6.0-web/js/all.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2">
-                <aside >
-                    <h3></h3>
-                </aside>
-            </div>
-            <div class="col-md-10">
-                <header>
-                    <!-- <div class="row">
-                        <div class="col-md-12 background-image"></div>
-                    </div> -->
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12">
-                            <img class="profile-img" src="img/Foto Carnet.jpg" alt="Imagen personal" width="75%" height="auto">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h1>Luca Viotti</h1>
-                            <h2>Desarrollador de Software</h2>
-                        </div>
-                    </div>
-                </header>
-                <section class="cv-body">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <h3>Descripción personal</h3>
-                        </div>
-                        <div class="col-md-12 col-sm-12">
-                            <p>Soy un estudiante de Ingeniería en Sistemas de
-                                Información, egresado de la secundaria como Técnico en
-                                Programación. Algunas de mis mejores cualidades son
-                                ser proactivo, autodidacta, apasionado y sociable. Me
-                                destaco en el desarrollo web, back-end y en aplicaciones
-                                móviles, con preferencia en estas últimas dos. Mi objetivo
-                                es crecer profesionalmente, obteniendo nuevos
-                                conocimientos, generando fuertes lazos con otros
-                                colegas y aportando valor en los escenarios donde me
-                                desempeñe.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <h3>Experiencia laboral</h3>
-                        </div>
-                        <div class="col-md-12 col-sm-12">
-                            <p class="text-bold">Desarrollador - Univ@c Ingeniería en Sistemas</p>
-                            <h5>ENE 2021 - DIC 2023</h5>
-                            <ul>
-                                <li>Desarrollo de páginas web.</li>
-                                <li>Confección y estilización de páginas web.</li>
-                                <li>Desarrollo back-end.</li>
-                                <li>Desarrollo de aplicaciones móviles.</li>
-                                <li>Desarrollo de aplicaciones web.</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-12 col-sm-12">
-                            <h4 class="text-bold">Desarrollador - Municipalidad de San Francisco</h4>
-                            <h5>DIC 2023 - ACTUALIDAD</h5>
-                            <ul>
-                                <li>Desarrollo back-end.</li>
-                                <li>Desarrollo de aplicaciones web.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>Proyectos realizados</h3>
-                        </div>
-                        <div class="col-md-12">
-                            <h4>Aplicación para venta particular</h4>
-                            <p>Me desempeñé desarrollando una aplicación móvil para venta particular que incluía autenticación, manejo de listados de artículos, manejo de carrito de compras, cálculos de precios con descuentos, situación fiscal del cliente e impuestos.</p>
-                            <p>La aplicación fue desarrollada en el framework Flutter, utilizando una API desarrollada en TypeScript y una base de datos MySQL/MariaDB.</p>
-                        </div>
-                        <div class="col-md-12">
-                            <h4>Sistema de control de ingresos y egresos</h4>
-                            <p>Me desempeñé desarrollando una aplicación web para gestión de ingresos y egresos que incluía ABM de ingresos/egresos, posibilidad de categorización de gastos, formas de pago, egresos fijos, ajustes y gráficos totalizadores.</p>
-                            <p>La aplicación fue desarrollada en el framework Flutter, utilizando una API desarrollada en TypeScript y la base de datos de Google Firebase.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>Contacto</h3>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="name">Nombre y apellido:</label>
-                            <input type="text" name="name" placeholder="Ingrese su nombre y apellido">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="email">Email de contacto</label>
-                            <input type="email" name="email" placeholder="Ingrese su email">
-                        </div>
-                        <div class="col-md-12">
-                            <label for="message">Mensaje</label>
-                            <input type="text" name="message" placeholder="Ingrese su mensaje">
-                        </div>
-                    </div>
-                </section>
+
+    <!-- Header -->
+    <header class="p-5 header-bg text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center d-flex justify-content-center align-items-center">
+                    <img src="img/foto_perfil.jpg" alt="Foto de Perfil" class="rounded-circle" width="270px" height="auto">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="mb-1 text-center text-md-start">LUCA VIOTTI</h1>
+                    <h3 class="text-center text-md-start">Desarrollador de Software y Estudiante de Ingeniería en Sistemas</h3>
+                    <p class="mt-3 text-justify"><em>"Soy un estudiante de Ingeniería en Sistemas de
+                        Información, egresado de la secundaria como Técnico en
+                        Programación. Algunas de mis mejores cualidades son
+                        ser proactivo, autodidacta, apasionado y sociable. Me
+                        destaco en el desarrollo web, back-end y en aplicaciones
+                        móviles, con preferencia en estas últimas dos. Mi objetivo
+                        es crecer profesionalmente, obteniendo nuevos
+                        conocimientos, generando fuertes lazos con otros
+                        colegas y aportando valor en los escenarios donde me
+                        desempeñe."</em></p>
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <span><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></span>
-                    <span><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></span>
-                    <span><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></span>
+    </header>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Habilidades</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3 text-center p-3">
+                <div class="skill-icon-container glow-blue">
+                    <img class="skill-icon" src="img/flutter_logo.png" alt="Flutter logo">
                 </div>
+            </div>
+            <div class="col-md-3 text-center p-3">
+                <div class="skill-icon-container glow-blue">
+                    <img class="skill-icon" src="img/ts_logo.png" alt="TypeScript logo">
+                </div>
+            </div>
+            <div class="col-md-3 text-center p-3">
+                <div class="skill-icon-container glow-green">
+                    <img class="skill-icon" src="img/nodejs_logo.png" alt="Node.js logo">
+                </div>
+            </div>
+            <div class="col-md-3 text-center p-3">
+                <div class="skill-icon-container glow-purple">
+                    <img class="skill-icon" src="img/dotnet_logo.png" alt=".NET Framework logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section with Modern Visuals -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Experiencia</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-5 col-12 experience-box my-2">
+                <h4>Desarrollador en Univ@c</h4>
+                <p><em>2020 - ACTUALIDAD</em></p>
+                <p>Desempeñándome como desarrollador flexible y trabajando en áreas como Front-End, Back-End, aplicaciones móviles y despliegue de productos.</p>
+            </div>
+            <div class="col-md-5 col-12 experience-box my-2">
+                <h4>Desarrollador Independiente</h4>
+                <p><em>2023 - ACTUALIDAD</em></p>
+                <p>Realizando trabajos independientes y también como integrante de un grupo de investigación, desarrollando productos de valor para el cliente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Proyectos Realizados</h2>
+        <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <h4>Autogestión Padres</h4>
+                    <p>Sistema de gestión de estado curricular de un alumno destinado a los padres, madres o tutores de los estudiantes. Utiliza MySQL como base de datos, Back-End desarrollado con PHP y Front-End desarrollado con HTML, CSS y JavaScript usando JQuery.</p>
+                </div>
+                <div class="carousel-item">
+                    <h4>wayr@.pymes móvil</h4>
+                    <p>Sistema de gestión de clientes, proveedores, artículos y pedidos destinado a empresas. Utiliza MySQL como base de datos, Back-End desarrollado en Node.js usando TypeScript y aplicación desarrollada en Flutter.</p>
+                </div>
+                <div class="carousel-item">
+                    <h4>Sistema de gestión de usinas lácteas</h4>
+                    <p>Sistema de gestión de producción, estados de productos, insumos y stock destinado a usinas lácteas. Utiliza SQL Server como base de datos, Back-End y Front-End desarrollado con .NET Framework.</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section class="container my-5 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="mb-4">Redes Sociales</h2>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/luca-viotti" class="social-link mx-2">
+                        <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                    <a href="https://github.com/LucaElbio" class="social-link mx-2">
+                        <i class="fab fa-github fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Form -->
+    <section class="container my-5">
+        <h2 class="text-center">Contacto</h2>
+        <form id="contactForm" class="mx-auto" action="https://formspree.io/f/xpwangno"
+        method="POST" style="max-width: 600px;">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer Innovador -->
+    <footer class="footer-bg text-white py-1">
+        <div class="container">
+            <div class="text-center m-3">
+                <p>&copy; 2024 Luca Viotti. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
