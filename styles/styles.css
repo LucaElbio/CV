@@ -137,3 +137,7 @@ h1 {
 .text-justify {
     text-align: justify;
 }
+
+#contactForm {
+    max-width: 600px;
+}
